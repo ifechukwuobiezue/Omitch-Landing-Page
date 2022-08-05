@@ -5,8 +5,16 @@
 body {
   color: white;
   height: 100vh;
-  background: linear-gradient(45deg, #160138, #0f0631, #0f0631);
+  /* background: linear-gradient(
+      45deg,
+      hsla(230, 96%, 10%, 0.986),
+      hsla(240, 78%, 7%, 0.986),
+      hsla(233, 74%, 9%, 0.986)
+    ),
+    url("/public/bg.jpg") no-repeat center center/ cover; */
+  background: linear-gradient(45deg, #160138, #160138, #0f0631, #0f0631);
   margin: 0;
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -15,6 +23,12 @@ body {
 }
 nav {
   color: white;
+  /* background: linear-gradient(
+    45deg,
+    hsla(230, 96%, 10%, 0.986),
+    hsla(240, 78%, 7%, 0.986),
+    hsla(233, 74%, 9%, 0.986)
+  ); */
   background: linear-gradient(45deg, #160138, #121727, #0f0631);
   border-bottom: 2px solid rgba(255, 255, 255, 0.6);
 }
@@ -22,14 +36,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.omitch {
+  background: linear-gradient(90deg, #fca600, #0da0f3, #ff6f06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 h1 {
   transform: translate(-50%, -50%);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: rockwell;
+  font-weight: 600;
   background: linear-gradient(90deg, #fca600, #0da0f3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .translate {
   transform: translate(-50%, -50%);
+}
+.design {
+  position: absolute;
+  width: 80%;
+  left: 85%;
+  margin-top: -15%;
 }

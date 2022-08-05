@@ -8,9 +8,9 @@ function Nav() {
     <nav class="sm:px-4 py-2.5 dark:bg-gray-800">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="##" class="flex items-center">
-          <img src={logo} class="ml-3 mr-3 h-6 sm:h-9" alt="Omitchbet Logo" />
-          <span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">
-            Omitch
+          <img src={logo} class="ml-3 h-6 sm:h-9" alt="Omitchbet Logo" />
+          <span class="omitch self-center text-2xl font-bold whitespace-nowrap dark:text-white">
+            mitch
           </span>
         </a>
         <div className="flex md:order-2">
@@ -24,7 +24,7 @@ function Nav() {
             type="button"
             class="lg:mr-3 md:mr-3 text-white border-2 border-blue-700 hover:border-blue-800  font-medium rounded-md text-sm px-5 py-2.5 text-center mr-3 dark:border-blue-600 dark:hover:border-blue-700"
           >
-            Trade Now
+            Play Now
           </button>
           <button
             type="button"

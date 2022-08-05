@@ -1,5 +1,5 @@
 import React from "react";
-
+import casino from "./assets/casino.png";
 function LandingPage() {
   return (
     <div>
@@ -21,6 +21,7 @@ function LandingPage() {
           Read Docs
         </button>
       </div>
+      <img src={casino} class="" alt="casino" />
       {/* <div>
         <a href="tradenow.html" class="btn contained">
           Launch VIP Bets
